@@ -1,0 +1,158 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+
+.font{
+	background-color: #ff7019;
+}
+
+.mui-cont{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	background-color: #ff6001;
+}
+.ww{
+	position: relative;
+}
+.so{
+	font-size: 27px;
+	position: absolute;
+	top: 30px;
+	left: 5%;
+}
+.tx{
+	text-indent: 20px;
+	background-color: #ff7019;
+	
+}
+.yu{
+	position: absolute;
+	top: 30px;
+	right: 10%;
+}
+.er{
+	float: right;
+}
+.iconfont .icon-erji .er:before{
+	margin-top: 30px;;
+}
+.icon-erji:before {
+	margin-top: 30px;
+	font-size: 25px;
+	line-height: 75px;
+	color: #fff;
+}
+
+
+.iconfont {
+   font-size:0;
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    /*line-height: 21px;*/
+    /*width: 100%;*/
+    /*height: 40px;*/
+   margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    /*-webkit-user-select: text;*/
+    /*border: 1px solid rgba(0,0,0,.2);*/
+    /*border-radius: 3px;*/
+    /*outline: 0;*/
+    background-color: #FF7019;
+    -webkit-appearance: none
+}
+.bei{
+	float: right;
+	line-height: 75px;
+}
+
+.quality{
+	width: 100%;
+	margin-top: 20px;
+	background-color: #fff;
+}
+.good{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:15px ;
+	color: #333333;
+	padding-left:26px ;
+}
+.XISHU{
+	width: 100%;
+}
+.XI{
+	width: 25%;
+	float: left;
+	text-align: center;
+	border-top: 1px solid #CCCCCC;
+	/*border:0.5px solid #cccccc;*/
+}
+.XI>img{
+	width: 100%;
+}
+.cai{
+	font-size:18px ;
+	color: #343434;
+	padding-top:15px;
+	font-weight: bold;
+}
+.go{
+	font-size: 15px;
+	color: #999999;
+	padding-top: 10px;
+}
+.nai{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.recommend{
+	width:100%;
+	background-color: #fff;
+}
+.zx{
+	width: 50%;
+	float: left;
+	/*border: 1px solid #999999;*/
+}
+.zx>img{
+	width:100%;
+}
+.zx-p{
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.zx-q{
+	font-size: 15px;
+	color: #f15b00;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}

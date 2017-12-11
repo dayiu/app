@@ -1,0 +1,93 @@
+{
+	"index.html": {
+		"resources": [
+			"Home.html"
+		],
+		"refer": [
+			"life.html",
+			"my.html",
+			"Home.html",
+			"financial.html",
+			"health.html",
+			"sousuo.html"
+		]
+	},
+	"Home.html": {
+		"refer": [
+			"sys.html",
+			"zx.html",
+			"sousuo.html"
+		]
+	},
+	"zx.html": {
+		"refer": [
+			"Home.html"
+		]
+	},
+	"financial.html": {
+		"refer": [
+			"sr.html",
+			"sousuo.html"
+		]
+	},
+	"sr.html": {
+		"refer": [
+			"financial.html"
+		]
+	},
+	"my.html": {
+		"refer": [
+			"f-x.html",
+			"login.html",
+			"registered.html",
+			"yaoyao.html",
+			"pinan.html",
+			"kef.html",
+			"gr.html"
+		]
+	},
+	"f-x.html": {
+		"refer": [
+			"my.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"my.html",
+			"main.html",
+			"forget_password.html",
+			"reg.html"
+		]
+	},
+	"registered.html": {
+		"refer": [
+			"my.html"
+		]
+	},
+	"yaoyao.html": {
+		"refer": [
+			"my.html"
+		]
+	},
+	"pinan.html": {
+		"refer": [
+			"my.html"
+		]
+	},
+	"kef.html": {
+		"refer": [
+			"my.html"
+		]
+	},
+	"sousuo.html": {
+		"refer": [
+			"Home.html",
+			"index.html"
+		]
+	},
+	"gr.html": {
+		"refer": [
+			"my.html"
+		]
+	}
+}

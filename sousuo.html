@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+	<head>  
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	</head>
+
+	<body>
+		<!--<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">搜索</h1>
+		</header>-->   
+		<div class="mui-content">
+		    <input  type="text" placeholder="狂欢 11.11" style="width: 80%;margin-left: 10px;margin-top: 30px;"/>
+		    		<!--href="Home.html"-->
+		    <a  id="fanhui">取消</a>
+		    <div style="width: 100%; background-color: #fff;padding-top: 20px;padding-bottom: 30px;">
+		    	<p style="margin-left: 20px;;">热门搜索</p>
+		    	<div>
+		    		<P>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">平安福</sapn>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">车险</sapn>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">基金</sapn>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">健康行</sapn>
+		    		</P>
+		    		<P>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">百万任我行</sapn>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">贷款</sapn>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">保健</sapn>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">奶粉</sapn>
+		    		</P>
+		    		<P>
+		    			<sapn style="padding:5px 5px;background-color: #C0C0C0;margin-left: 20px;border-radius: 10px;">平安福贵</sapn>
+		    		</P>
+		    	</div>
+		    </div>
+		    <div style="width: 100%;background-color: #fff;margin-top: 2px;height: 200px;">
+		    		<p>暂无历史记录</p>
+		    </div>
+		     <div class="mui-input-row">
+		      	<label>语音输入</label>
+		      	<input type="text" class="mui-input-speech mui-input-clear" placeholder="语音输入">
+		  </div>
+		  <!--mText-sPeech-->
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				mui('#fanhui')[0].addEventListener("tap",function(){
+					mui.openWindow('Home.html','Home.html');
+				})
+			})
+		</script>
+	</body>
+
+</html>

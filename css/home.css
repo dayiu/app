@@ -1,0 +1,156 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	font-size: 62.5%;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+
+.font{
+	background-color: #ff7019;
+}
+.res{
+	/*margin-left: -100px;*/
+	width:60%
+	position: relative;
+	/*margin-left:10%;*/
+}
+.icon-icon{
+	color:#fff;
+}
+.icon-xinxi1{
+	color:#fff;
+}
+.text{
+	text-indent: 20px;
+	background-color: #ff7019;
+	border: none;
+	outline: none;
+}
+.icon-sousuo{
+	color:#ffd4b9;
+	position: absolute;
+	top:0px;
+	left:5%;
+}
+.icon-yuyin{
+	color:#ffd4b9;
+	position: absolute;
+	top:0px;
+	right:10%;
+}
+
+
+
+
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	background-color:#ff7019;
+	border: 1px solid rgba(0,0,0,.1);
+	outline: none;
+}
+mui-slider>img{
+	width:100%;
+	heigh:100%;
+}
+.tou{
+	font-size: 15px;
+	color: #333333;
+}
+.zx{
+	border: 1px solid #ff6101;
+	color:#ff6101;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-right: 17px;
+}
+.zz{
+	color: #333333;
+}
+.kuan{
+	width:100%;
+	background-color: #fff;
+	padding-top: 20px;;
+}
+.h-l{
+	width:25%;
+	text-align: center;
+	float: left;
+}
+.h-l>img{
+	width:50%;
+	height: 50%;
+}
+.si{
+	width:100%;
+	background-color: #fff;
+	margin-top: 18px;
+	padding-top: 20px;;
+	padding-bottom: 20px;
+	margin-bottom: 2px;
+}
+.bai{
+	width:80%;
+	margin: 0 auot;
+	border-left: 6px solid #ff6001;
+	padding-left: 24px;
+	color: #999999;
+	font-size: 20px;
+}
+.quanf{
+	width:100%;
+	background-color: #fff;
+}
+.le-ft{
+	float: left;
+	text-align: center;
+	width: 24%;
+}
+.le-ft>img{
+	width: 100%;
+	height:100%;
+}
+.ri-ght{
+	width: 75%;
+	float: right;
+	text-align: center;
+}
+.qfw{
+	padding-top: 27px;
+	/*font-size:28px ;*/
+	color: #333333;
+}
+.aij{
+	width: 32%;
+	float: left;
+	border-left: 1px solid #e4e4e4;
+}
+.aij>img{
+	width:100%;
+	height: 100%;
+}
+.qfw-t{
+	padding-top: 21px;
+	/*font-size:28px ;*/
+	color: #333333;
+	border-top: 1px solid #E4E4E4;
+}
+.ttiao{
+	font-size: 10px;
+}

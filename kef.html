@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<!--href="my.html"-->
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"  id="fh"></a>
+		    <h1 class="mui-title">客服</h1>
+		</header>
+		<div class="mui-content">
+			
+			<div class="kk" style="font-size: 20px;margin-top: 10px;padding-left: 20px;background-color: #fff;padding-bottom: 30px;padding-top:20px;">
+				<a href="" id="dian">客服电话：95511</a>
+			</div>
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                    平安百万任我行能否增加险
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                     客户购买产品后需要要电子保单
+		                </a>
+		            </li>
+		            <li class="mui-table-view-cell">
+		                <a class="mui-navigate-right">
+		                     平安百万任我行是否同其他险一样
+		                </a>
+		            </li>
+		        </ul>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				mui('#dian')[0].addEventListener('tap',function(){
+					plus.device.dial("114",true);
+				})
+				mui('#fh')[0].addEventListener('tap',function(){
+					mui.openWindow('my.html','my.html')
+				})
+			})
+		</script>
+	</body>
+
+</html>

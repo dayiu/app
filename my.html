@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/my.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	</head>
+
+	<body>
+		
+		<header class="mui-bar mui-bar-nav wai">
+			<!--href="login.html"-->
+		    <a class=" mui-pull-left login"  id='gl'>登录</a>
+		    <h1 class="mui-title wod">我的</h1>
+		   <!-- <a class="mui-pull-right registered" href="registered.html" id='zcc'>注册</a>-->
+		</header>
+		<div class="mui-content">
+		    <ul class="mui-table-view">
+		            <li class="mui-table-view-cell">
+		            	<!--href="gr.html"-->
+		                <a class="mui-navigate-right clearfix"  id="gr">
+		                	<img class="wonu" id='ss' src="img/wod.jpg"/> 
+		                    <p class="w-z">无怒</p>
+		                    <P class="w-d">134*****22</P>
+		                </a>
+		            </li>
+		    </ul>
+		    <div class="k-kh clearfix">
+		    	<div class="kh">
+		    		<p class="iconfont icon-kehu"></p>
+		    		<p>客户经理</p>
+		    	</div>
+		    	<div class="kh">
+		    		<p class="iconfont icon-youhuiquan"></p>
+		    		<p>优惠券</p>
+		    	</div>
+		    	<div class="kh">
+		    		<p class="iconfont icon-icon-"></p>
+		    		<p>我的订单</p>
+		    	</div>
+		    	<div class="kh">
+		    		<p class="iconfont icon-jifen"></p>
+		    		<p>我的积分</p>
+		    	</div>
+		    	<div class="kh">
+		    		<p class="iconfont icon-jiangpin"></p>
+		    		<p>我的奖品</p>
+		    	</div>
+		    </div>
+		    <div class="si">
+		    	<div class="bai">旺财账户</div>
+		    </div>
+		</div>
+		<ul class="mui-table-view huodong">
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		            	<span class="iconfont icon-jiangpin"></span>
+		                  我的活动
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		            	<span class="iconfont icon-jiankangjilu1"></span>
+		               我的健康
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell" id="pa">
+		        	<!--href="pinan.html"-->
+		            <a class=" mui-navigate-right"  >
+		            	<span class="iconfont icon-VIP"></span>
+		                 平安VIP服务
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		        	<!--href="kef.html"-->
+		            <a class="mui-navigate-right"  id="kf">
+		            	<span class="iconfont icon-kefu"></span>
+		                 客服中心
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		        	<!--href="f-x.html"-->
+		            <a class="mui-navigate-right"  id="fx">
+		            	<span class="iconfont icon-goushengxiao"></span>
+		                 定位
+		            </a>
+		        </li>
+		    </ul>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				mui('#gl')[0].addEventListener('tap',function(){
+					mui.openWindow('login.html','login.html')
+				})
+				mui('#fx')[0].addEventListener('tap',function(){
+					mui.openWindow('f-x.html','f-x.html')
+				})
+				mui('#pa')[0].addEventListener('tap',function(){
+					mui.openWindow('pinan.html','pinan.html')
+//					alert(1)
+				})
+				mui('#kf')[0].addEventListener('tap',function(){
+					mui.openWindow('kef.html','kef.html')
+				})
+				mui('#gr')[0].addEventListener('tap',function(){
+					mui.openWindow('gr.html','gr.html')
+				})
+			})
+		</script>
+	</body>
+
+</html>

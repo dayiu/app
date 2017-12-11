@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<!--href="my.html"-->
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"  id='fh'></a>
+		    <h1 class="mui-title">个人信息</h1>
+		</header>
+		<div class="mui-content">
+		   <ul class="mui-table-view">
+		       <li class="mui-table-view-cell mui-media">
+		           <a href="javascript:;" id="btn">
+		               <img class="mui-media-object mui-pull-right " id="tt" src="img/wod.jpg">
+		               	<!--<div class="tt mui-pull-right"></div>-->
+		               <div class="mui-media-body" style="line-height: 50px;font-size: 15px; color: #929292;">
+		                   我的头像
+		               </div>
+		           </a>
+		       </li>
+		        <li class="mui-table-view-cell mui-media">
+		           <a href="javascript:;" id="nic">
+		               <span class="mui-pull-right" style="line-height: 50px;font-size: 15px; color: #929292;">无怒</span>
+		               <div class="mui-media-body" style="line-height: 50px;font-size: 15px; color: #929292;">
+		                   昵称
+		               </div>
+		           </a>
+		       </li>
+		        <li class="mui-table-view-cell mui-media">
+		           <a href="javascript:;">
+		               <span class="mui-pull-right" style="line-height: 50px;font-size: 15px; color: #929292;">134****6822</span>
+		               <div class="mui-media-body" style="line-height: 50px;font-size: 15px; color: #929292;">
+		                   手机
+		               </div>
+		           </a>
+		       </li>
+		        <li class="mui-table-view-cell mui-media">
+		           <a href="javascript:;">
+		               <span class="mui-pull-right" style="line-height: 50px;font-size: 15px; color: #929292;">未绑定</span>
+		               <div class="mui-media-body" style="line-height: 50px;font-size: 15px; color: #929292;">
+		                   邮箱
+		               </div>
+		           </a>
+		       </li>
+		   </ul>
+		   
+		  
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function(){
+				mui('#fh')[0].addEventListener('tap',function(){
+					mui.openWindow('my.html','my.html')
+				})
+				mui("#btn")[0].addEventListener("tap",function(){
+					var cm = plus.camera.getCamera( 1 );
+					cm.captureImage(function(path){
+						var img=document.getElementById('tt');
+						
+						img.src = "file://"+plus.io.convertLocalFileSystemURL(path);
+//						alert(img.src)
+					});
+				})
+				
+//				p.innerHTML="<img src='3.gif'title='3' />..."
+				
+				
+				mui('#nic')[0].addEventListener(function(){
+					
+				})
+				
+			})
+		</script>
+	</body>
+
+</html>

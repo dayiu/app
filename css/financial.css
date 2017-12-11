@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+
+.font{
+	background-color: #ff7019;
+}
+
+.mui-cont{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	background-color: #ff6001;
+}
+.ww{
+	position: relative;
+}
+.so{
+	font-size: 27px;
+	position: absolute;
+	top: 30px;
+	left: 5%;
+}
+.tx{
+	text-indent: 20px;
+	background-color: #ff7019;
+	
+}
+.yu{
+	position: absolute;
+	top: 30px;
+	right: 10%;
+}
+.er{
+	float: right;
+}
+.iconfont .icon-erji .er:before{
+	margin-top: 30px;;
+}
+.icon-erji:before {
+	margin-top: 30px;
+	font-size: 25px;
+	line-height: 75px;
+	color: #fff;
+}
+
+
+.iconfont {
+   font-size:0;
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    /*line-height: 21px;*/
+    /*width: 100%;*/
+    /*height: 40px;*/
+   margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    /*-webkit-user-select: text;*/
+    /*border: 1px solid rgba(0,0,0,.2);*/
+    /*border-radius: 3px;*/
+    /*outline: 0;*/
+    background-color: #FF7019;
+    -webkit-appearance: none
+}
+
+
+.rsbz{
+	width: 100%;
+}
+.fin{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding-top: 31px;
+}
+.tu{
+	font-size: 40px;
+}
+.icon-kehu1:before {
+    content: "\e7f0";
+    font-size: 40px;
+    color: #fff;
+}
+.icon-anquan:before{
+	 font-size: 30px;
+    color: #fff;
+}
+.icon-chuhang:before{
+	 font-size: 30px;
+    color: #fff;
+}
+.icon-yiliao:before{
+	 font-size: 30px;
+    color: #fff;
+}
+.zt{
+	padding-top: 10px;
+	font-size:15px ;
+	color: #fff;
+	padding-bottom: 45px;
+}
+.zt-t{
+	padding-top: 5px;
+	font-size:15px ;
+	color: #fff;
+	padding-bottom: 45px;
+}
+.mui-slider-indicator {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    background: 0 0;
+}
+/*.mui-indicator{
+	background-color: #EC971F;
+}*/
+
+
+.si{
+	width:100%;
+	background-color: #fff;
+	margin-top: 18px;
+	padding-top: 20px;;
+	padding-bottom: 20px;
+	/*margin-bottom: 2px;*/
+}
+.bai{
+	width:80%;
+	margin: 0 auot;
+	border-left: 6px solid #ff6001;
+	padding-left: 24px;
+	color: #999999;
+	font-size: 20px;
+}
+.zhuan{
+	padding-left: 10%;
+	padding-top: 24px;
+	color: #ff6000;
+	font-size:19px ;
+}
+.gou{
+	width: 100%;
+	padding-top: 20px;
+}
+.wangcai{
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+.icon-goushengxiao:before{
+	font-size: 34px;
+	color: #ffd752;
+}
+.icon-qian:before{
+	font-size: 34px;
+	color: #29aef3;
+}
+.icon-yuanbao:before{
+	font-size: 34px;
+	color: #ff6600;
+}
+.icon-qianbao:before{
+	font-size: 34px;
+	color: #ff686d;
+}
+.icon-tongjitutubiao:before{
+	font-size: 34px;
+	color: #ffc60b;
+}
+.wc{
+	font-size:15px ;
+	color: #333333;
+	margin-top: 15px;;
+}
+
+
+.icon-jiankangjilu1:before{
+	font-size: 34px;
+	color: #42bd56;
+}
+.icon-jijin:before{
+	font-size: 34px;
+	color: #ff6969;
+}
+.icon-xinyongqia:before{
+	font-size: 34px;
+	color: #9894ff;
+}
+.icon-daikuan1:before{
+	font-size:34px ;
+	color: #ff6969;
+}
+.icon-huoqibaoqianyue:before{
+	font-size: 34px;
+	color: #ffc60b;
+}
+.vip{
+	margin-top: 20px;
+}
+.icon-VIP:before{
+	color: #CF2D28;
+	font-size: 20px;
+}
+.CHE{
+	width: 100%;
+}
+.BAN{
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;;
+	float: left;
+}
+.BAN>img{
+	width:100%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.BAN>p{
+	text-align: left;
+	padding-left: 10px;
+}
+.y-z{
+	font-size:15px ;
+	color:#333333 ;
+}
+.y-y{
+	font-size:12px ;
+	color: #ff6000;
+}
